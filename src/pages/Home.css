@@ -1,0 +1,20 @@
+ion-grid {
+  --ion-grid-padding: 40px;
+
+  --ion-grid-padding-xs: 40px;
+  --ion-grid-padding-sm: 40px;
+  --ion-grid-padding-md: 40px;
+  --ion-grid-padding-lg: 40px;
+  --ion-grid-padding-xl: 40px;
+
+}
+
+ion-row {
+  margin: 40px;
+}
+
+.homeButton{
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}

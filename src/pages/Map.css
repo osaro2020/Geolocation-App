@@ -1,0 +1,61 @@
+
+.mapButton{
+    position: relative;
+    width:200px;
+    margin:0 auto;
+    margin-bottom:5vh;
+    margin-top: 1vh;
+    /* margin-top:90vh; */
+    display: flex;
+    justify-content: center;
+
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    
+}
+
+.mapButtonTop{
+    position: relative;
+    width:200px;
+    margin:0 auto;
+    margin-top: 43vh;
+    display: flex;
+    justify-content: center;
+
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+
+}
+
+.ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    z-index: 1;
+    height: 150px;
+    border-radius: 100%;
+    opacity: 0.4;
+  }
+  
+  .ring {
+    animation: pulsate 1s infinite;
+  }
+  
+  @keyframes pulsate {
+    0% {
+      width: 150px;
+      height: 150px;
+    }
+    50% {
+      width: 170px;
+      height: 170px;
+    }
+    100% {
+      width: 150px;
+      height: 150px;
+    }
+  }
